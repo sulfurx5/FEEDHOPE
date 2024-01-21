@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;1,100&display=swap');
+
+body{
+    background-color: #EEB085;
+}
+
+.row2
+{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 10px;
+}
+.contact
+{
+    width: 400px;
+    height: 300px;
+    color: rgba(160, 70, 70, 1);
+    font-family: 'asap';
+    font-size: 1rem;
+}
+.sendmsg-btn
+{
+
+    all: unset;
+    background-color: rgba(205, 39, 109, 1);
+    color:rgba(255, 252, 252, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding: 2.5%;
+    width: 130px;
+}
+.contact-form
+{
+    all:unset;
+    color:rgba(255, 252, 252, 1);
+    background: rgb(2,0,36);
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(221,198,211,1) 0%, rgba(183,135,161,1) 0%, rgba(172,117,147,1) 26%, rgba(161,99,133,1) 34%, rgba(144,72,111,1) 44%, rgba(124,38,85,1) 73%, rgba(124,38,85,1) 100%);
+    margin: 10px;
+    padding: 5px;
+    height: 500px;
+    width: 600px;
+    top: 200px;
+    left: 725px;
+    font-family: 'asap';
+}
+h1
+{
+    text-align: center;
+}
+.input-box
+{
+    width: 650px;
+    top: 361px;
+    left: 788px;
+    color: white;
+    background-color: violet;
+    border-bottom: solid black;
+}
+#phone
+{
+    background-color: violet;
+    width: 650px;
+    border-bottom: solid black;
+}
+
+.inputBoxStyling{
+    all: unset;
+    border-bottom: solid black 1.5px;
+    width: 550px;
+    color: black;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex2 input {
+    color: black;
+}
